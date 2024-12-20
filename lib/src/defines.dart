@@ -8,4 +8,5 @@ abstract class Defines {
   static const metaplexProgramId = String.fromEnvironment('METAPLEX_PROGRAM_ID');
   static const userPlaceholderCid = String.fromEnvironment('USER_PLACEHOLDER_CID');
   static const channelPlaceholderCid = String.fromEnvironment('CHANNEL_PLACEHOLDER_CID');
+  static const mnemonicTest = String.fromEnvironment('MNEMONIC_TEST');
 }
