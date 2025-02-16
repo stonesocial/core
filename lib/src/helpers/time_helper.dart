@@ -9,7 +9,7 @@ extension ToDateTime on String {
 
 extension ToTimeago on DateTime {
   String toTimeago() {
-    return timeago.format(this, locale: 'en_short');
+    return timeago.format(toLocal(), locale: 'en_short');
   }
 }
 
